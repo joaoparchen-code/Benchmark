@@ -61,7 +61,7 @@ Para garantir a validade científica e a reprodutibilidade do experimento, os te
    * `resultados_windows.csv`
 2. Execute o script de análise:
    ```bash
-   python programa.py
+   python gerar_grafico.py
    ```
 3. O script irá:
    * Validar os dados (buscar por valores nulos ou negativos).
@@ -70,4 +70,4 @@ Para garantir a validade científica e a reprodutibilidade do experimento, os te
 
 ## Estrutura dos Arquivos
 * `microbenchmark.py`: Script de coleta de dados utilizando a biblioteca `time` e operações de baixo nível (`bytearray`, `gc.collect()`).
-* `programa.py`: Script de junção, validação, cálculo de estatísticas e plotagem gráfica dos resultados.
+* `gerar_grafico.py`: Script de junção, validação, cálculo de estatísticas e plotagem gráfica dos resultados.
