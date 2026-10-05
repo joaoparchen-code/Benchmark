@@ -1,0 +1,9 @@
+Sistema,Operação,Média (ms),Mediana (ms),Variância,Desvio Padrão (ms)
+Windows,Alocação (alloc),"178,18","166,37","10.115,52","100,57"
+,Escrita (write),"699,29","685,75","150.205,63","387,56"
+,Leitura (read),"10,04","7,81","64,15",8
+,Liberação (free),"47,2","37,87","1.133,11","33,66"
+Linux,Alocação (alloc),"330,86","333,96","30.748,06","175,35"
+,Escrita (write),"599,49","591,72","101.530,36","318,63"
+,Leitura (read),"6,16","6,23","10,34","3,21"
+,Liberação (free),"46,07","46,48",647,"25,43"
